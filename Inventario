@@ -49,7 +49,7 @@ class InventarioTienda:
             print("El inventario está vacío.")
             return
         
-        print(f"\n--- Inventario de {self.nombre_tienda} ---")
+        print(f"\nInventario de {self.nombre_tienda}")
         for producto in self.productos:
             print(f"Producto: {producto['nombre']}, Precio: ${producto['precio']:.2f}, Cantidad: {producto['cantidad']}")
         print("Fin del inventario\n")
